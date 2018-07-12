@@ -1,0 +1,21 @@
+.button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px 25px;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+
+	&__blue {
+		background: #81d4f4;
+		transition: .3s;
+
+		&:hover {
+			background: lighten(#de2b24, 7%);
+		}
+	}
+
+	&__text-uppercase {
+		text-transform: uppercase;
+	}
+}
