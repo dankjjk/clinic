@@ -88,6 +88,12 @@ gulp.task('copy:images', function() {
 		.pipe(gulp.dest('build/img'));
 });
 
+/* --------------- Copy css --------------- */
+
+gulp.task('copy:css', function() {
+	return gulp.src('app/css/libs/*.*')
+		.pipe(gulp.dest('build/css'));
+})
 
 /* --------------- Copy js --------------- */
 
@@ -98,7 +104,7 @@ gulp.task('copy:js', function() {
 
 /* --------------- Copy --------------- */
 
-gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images', 'copy:js'));
+gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images', 'copy:css', 'copy:js'));
 
 
 /* --------------- Watchers --------------- */

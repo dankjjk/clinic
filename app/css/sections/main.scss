@@ -1,0 +1,31 @@
+.main {
+	
+	&__content {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translate(0, -50%);
+		padding: 0 120px;
+		color: $main-black;
+
+		h1 {
+			font-size: 2.3em;
+			font-family: $ff-main-bold;
+			text-transform: uppercase;
+			line-height: 43px;
+			letter-spacing: -0.035rem;
+			padding-top: 10px;
+			margin: 0.5em 0;
+		}
+
+		p {
+			font-size: 20px;
+			line-height: 1.5rem;
+
+		}
+
+		.button {
+			padding: 13px 33px;
+		}
+	}
+}

@@ -1,8 +1,10 @@
-(function() {
-	var burger = document.querySelector('.header__burger'),
-			header = document.querySelector('.header__menu');
-
-	burger.onclick = function() {
-		header.classList.toggle('header__opened');
-	}
-}());
+$(function() {
+	$(".owl-carousel").owlCarousel({
+		items: 1,
+		singleItem: true,
+		loop: true,
+		autoplay: false,
+		nav: true,
+		navText: ["<img src=\"img/shape.png\">", "<img class='arrow-right' src=\"img/shape.png\">"]
+	});
+});

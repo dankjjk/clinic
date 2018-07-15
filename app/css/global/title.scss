@@ -23,7 +23,7 @@
 
 	&__text {
 		font-size: 1.25rem;
-		font-family: $ff-main-light;
+		font-family: $ff-main;
 		margin: 12px 0;
 
 		@media (max-width: 767px) {
@@ -35,7 +35,7 @@
 		position: relative;
 
 		&:after {
-			@include centerer-x();
+			@include center-x();
 
 			content: '';
 			bottom: -16px;

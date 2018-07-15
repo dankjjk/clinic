@@ -1,17 +1,20 @@
 .button {
 	display: inline-block;
 	vertical-align: top;
-	padding: 15px 25px;
+	padding: 13px 48px;
 	border-radius: 3px;
-	color: #fff;
-	text-transform: uppercase;
+	cursor: pointer;
+	color: $main-white;
+	font-family: $ff-main-bold;
+	letter-spacing: 0.03em;
+	font-size: 19px;
 
 	&__blue {
 		background: #81d4f4;
 		transition: .3s;
 
 		&:hover {
-			background: lighten(#de2b24, 7%);
+			background: lighten(#81d4f4, 7%);
 		}
 	}
 

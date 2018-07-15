@@ -1,19 +1,13 @@
 header.header
-	.container
-		.header__menu
-			.header__burger
-				#burger
-					.bar.topBar
-					.bar.btmBar
+	.header__container
+		.header__logo
+			img.logo(src="img/logo.png" alt="logotype")
 
-			.header__logo
-				img.logo(src="img/logo.png" alt="logotype")
-
-			ul.nav
-				li.nav__item: a.nav__link(href="#") Главная
-				li.nav__item: a.nav__link(href="#") О нас
-				li.nav__item: a.nav__link(href="#") Сервисы
-				li.nav__item: a.nav__link(href="#") Цены
-				li.nav__item: a.nav__link(href="#") Блог
-				li.nav__item: a.nav__link(href="#") Контакты
-				li.nav__item: a.nav__link(href="#") Записаться
+		ul.nav
+			li.nav__item: a.nav__link(href="#") Главная
+			li.nav__item: a.nav__link(href="#") О нас
+			li.nav__item: a.nav__link(href="#") Сервисы
+			li.nav__item: a.nav__link(href="#") Цены
+			li.nav__item: a.nav__link(href="#") Блог
+			li.nav__item: a.nav__link(href="#") Контакты
+			li.nav__item: a.nav__link.sign-up(href="#") Записаться
