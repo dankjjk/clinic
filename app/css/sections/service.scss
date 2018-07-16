@@ -1,0 +1,85 @@
+.service {
+
+	h2 {
+		font-size: 1.6rem;
+	}
+
+	h3 {
+		font-family: $ff-main-bold;
+		color: $main-white;
+	}
+
+	&__content-doctor {
+		background: $main-blue url(../img/content-1_item-1.png) right no-repeat;
+		color: #fff;
+		text-align: left;
+	}
+	
+	&__title {
+		margin: 10px 16px 4px;
+
+		h2 {
+			color: $main-white;
+			font-size: 1.6rem;
+			text-transform: uppercase;
+			font-family: $ff-main-bold;
+		}
+
+		p {
+			font-size: 20px;
+			color: $main-black;
+		}
+		
+		.button {
+			border: 2px solid #fff;
+			color: $main-black;
+			background: $main-white;
+		}
+	}
+
+	&__content-1 {
+		background: url(../img/content-1_item-2.png) no-repeat center center;
+		position: relative;
+	}
+
+	&__content-2 {
+		background: $main-blue url(../img/content-1_item-3.png) no-repeat center bottom;
+		text-align: center;
+	}
+
+	&__content-3 {
+		background: url(../img/content-1_item-4.png) no-repeat center center;
+		position: relative;
+		height: 100px;
+	}
+
+	&__content-4 {
+		background: url(../img/content-1_item-5.png) no-repeat center center;
+		position: relative;
+		height: 100px;
+	}
+
+	&__title-top {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 0;
+		background: $main-blue;
+		text-transform: uppercase;
+	}
+
+	&__title-bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		background: $main-blue;
+		text-transform: uppercase;
+	}
+
+	&__content-family {
+		background: url(../img/content-1_item-6.png) no-repeat center center;
+		position: relative;
+	}
+
+}

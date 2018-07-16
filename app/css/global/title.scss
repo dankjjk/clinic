@@ -1,34 +1,20 @@
 .title {
-	margin-bottom: 65px;
+	margin: 0 auto 65px;
+	width: 700px;
 	text-align: center;
-
-	@media (max-width: 767px) {
-		margin-bottom: 55px;
-	}
 
 	&__header {
 		margin: 0;
-		font-size: 2.25rem;
+		font-size: 1.4rem;
 		font-family: $ff-main-bold;
+		text-transform: uppercase;
 		line-height: 1;
-
-		@media (max-width: 767px) {
-			font-size: 2rem;
-		}
-
-		@media (max-width: 576px) {
-			font-size: 1.75rem;
-		}
 	}
 
 	&__text {
 		font-size: 1.25rem;
 		font-family: $ff-main;
 		margin: 12px 0;
-
-		@media (max-width: 767px) {
-			font-size: 1rem;
-		}
 	}
 
 	&--with-bottom-line {
@@ -41,7 +27,7 @@
 			bottom: -16px;
 			width: 57px;
 			height: 4px;
-			background: #424242;
+			background: $main-blue;
 		}
 	}
 }

@@ -1,5 +1,10 @@
 ﻿html {
 	font-family: $ff-main, Arial, Helvetica Neue, sans-serif;
+	color: $main-black;
+}
+
+body {
+	height: 3000px;
 }
 
 .is-hidden {
@@ -9,4 +14,11 @@
 .visually-hidden {
 	text-indent: 0px;
 	font-size: 0;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p,
+a {
+	color: $main-black;
 }
