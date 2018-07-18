@@ -1,0 +1,67 @@
+
+.owl-theme {
+	// Styling Next and Prev buttons
+	.owl-nav {
+		margin-top: 10px;
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		button {
+			position: absolute;
+			top: 50%;
+			transform: translate(0, -26%);
+			padding: 55px;
+		}
+
+		.owl-prev {
+			left: 0;
+		}
+
+		.owl-next {
+			right: 0;
+		}
+
+		.disabled {
+			opacity: $nav-disabled-opacity;
+			cursor: default;
+		}
+	}
+
+	// Styling dots
+	.owl-nav.disabled + .owl-dots {
+		margin-top: 10px;
+	}
+
+	.owl-dots {
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+		position: absolute;
+		left: 0;
+		bottom: 5%;
+		padding: 0 120px;
+
+		.owl-dot {
+			display: inline-block;
+			zoom: 1;
+			*display: inline;
+			padding: 0!important;
+
+			span {
+				width: 42px;
+				height: $dot-height;
+				margin: $dot-margin;
+				background: $dot-background;
+				display: block;
+				-webkit-backface-visibility: visible;
+				transition: opacity 200ms ease;
+				border-radius: $dot-rounded;
+			}
+
+			&.active {
+				span {
+					background: $dot-background-active;
+				}
+			}
+		}
+	}
+}
