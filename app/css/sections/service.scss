@@ -24,7 +24,7 @@
 
 	&__content-doctor {
 		background: $main-blue;
-		// background: $main-blue url(../img/content-1_item-1.png) right no-repeat;
+		background: $main-blue url(../img/content-1_item-1.png) 96% bottom no-repeat;
 		color: #fff;
 		text-align: left;
 		padding: 36px 41px 40px;
@@ -64,12 +64,12 @@
 			margin-top: 28px;
 		}
 
-		img {
-			position: absolute;
-			right: 13px;
-			top: 0;
-			bottom: 0;
-		}
+		// img {
+		// 	position: absolute;
+		// 	right: 13px;
+		// 	top: 0;
+		// 	bottom: 0;
+		// }
 	}
 
 	&__content-1 {
@@ -143,5 +143,4 @@
 			padding: 11px 42px;
 		}
 	}
-
 }

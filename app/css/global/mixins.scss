@@ -16,3 +16,9 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+@mixin center-left() {
+	position: absolute;
+	left: 0;
+	transform: translate(0, 0);
+}

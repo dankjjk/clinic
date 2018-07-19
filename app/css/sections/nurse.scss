@@ -1,0 +1,32 @@
+.nurse {
+
+	&__text {
+		background: #fff url(../img/bg-content-1.png) no-repeat 103% 95%;
+		padding: 99px 25px;
+
+		h2 {
+			font-size: 19px;
+			font-family: $ff-main-bold;
+			text-transform: uppercase;
+			letter-spacing: 0.038em;
+		}
+
+		.nurse__desc {
+			margin-top: 31px;
+			font-size: 17px;
+			letter-spacing: 0.033em;
+			line-height: 1.5em;
+		}
+
+		.author {
+			margin-top: 31px;
+			font-family: $ff-main-bold;
+			font-size: 18px;
+			letter-spacing: 0.01em;
+		}
+
+		.profession {
+			font-size: 14px;
+		}
+	}
+}

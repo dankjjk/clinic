@@ -1,0 +1,26 @@
+section.form
+	.container
+		.row
+			.col-6
+				.form__left
+					.title__header.title--with-bottom-line
+						h2 Время работы
+					ul.form__week
+						li.form__day: p Понедельник | 9:00-21:00
+						li.form__day: p Вторник | 9:00-21:00
+						li.form__day: p Среда | 9:00-21:00
+						li.form__day: p Четверг | 9:00-21:00
+						li.form__day: p Пятница | 9:00-21:00
+						li.form__day: p Суббота | 11:00-19:00
+						li.form__day: p Воскресенье | Выходной
+
+			.col-6
+				.form__right
+					h2.title__header Запись к врачу
+					form(class="form__table" action="" method="")
+						input(class="form__items" type="text" placeholder="Имя")
+						input(class="form__items" type="text" placeholder="Фамилия")
+						input(class="form__items" type="text" placeholder="Отчество")
+						input(class="form__items" type="text" placeholder="Номер телефона")
+						input(class="form__items" type="text" placeholder="Email")
+						input(class="form__items" type="submit" value="Записаться на приём")
