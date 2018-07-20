@@ -17,10 +17,11 @@ section.form
 			.col-6
 				.form__right
 					h2.title__header Запись к врачу
-					form(class="form__table" action="" method="")
-						input(class="form__items" type="text" placeholder="Имя")
-						input(class="form__items" type="text" placeholder="Фамилия")
-						input(class="form__items" type="text" placeholder="Отчество")
-						input(class="form__items" type="text" placeholder="Номер телефона")
-						input(class="form__items" type="text" placeholder="Email")
-						input(class="form__items" type="submit" value="Записаться на приём")
+					.form__div
+						form(class="form__table" action="" method="")
+							p: input(class="form__items" type="text" placeholder="Имя")
+							p: input(class="form__items" type="text" placeholder="Фамилия")
+							p: input(class="form__items" type="text" placeholder="Отчество")
+							p: input(class="form__items" type="text" placeholder="Номер телефона")
+							p: input(class="form__items" type="text" placeholder="Email")
+							.form__button: input(class="form__submit" type="submit" value="Записаться на приём")

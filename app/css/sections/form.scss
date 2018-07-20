@@ -7,7 +7,7 @@
 	&__left {
 		width: 263px;
 		margin: 0 auto;
-		padding: 77px 0;
+		padding: 77px 0 100px;
 		
 		h2 {
 			color: #fff;
@@ -41,10 +41,9 @@
 	}
 
 	&__right {
-		margin: 0 auto;
-		width: 400px;
 		text-align: center;
 		padding: 44px 0;
+		position: relative;
 
 		h2 {
 			color: #fff;
@@ -54,19 +53,55 @@
 		}
 	}
 
-	&__table {
-		margin-left: 60px;
-		width: 310px;
-		margin-top: 20px
+	&__div {
+		@include center-x();
+		transform: translateX(-45%);
+		background: #fff;
+		margin-top: 20px;
+		padding: 20px 30px 26px;
 	}
 
+	&__table {
+		p {
+			margin-top: 20px;
+
+			&:first-child {
+				margin-top: 9px;
+			}
+		}
+	}
+
+
 	&__items {
-		display: block;
-		border: none;
-		padding: 10px 25px;
-		width: 310px;
+		color: #424242;
 		font-size: 17px;
 		letter-spacing: 0.03em;
-		border-bottom: 1px solid $main-blue
+		border: none;
+		border-bottom: 2px solid #C1C1C1;
+		background: #fff;
+		padding: 3px 14px 5px 12px;
+		letter-spacing: 0.045em;
+		transition: .3s;
+
+		&:hover,
+		&:active {
+			border-bottom: 2px solid $main-blue;
+		}
+	}
+
+	&__button {
+		margin-top: 22px;
+	}
+
+	&__submit {
+		width: 100%;
+		background: $main-blue;
+		color: $main-white;
+		padding: 10px 0 10px 0;
+		font-family: $ff-main-bold;
+		border: none;
+		font-size: 1.12em;
+		border-radius: 3px;
+		letter-spacing: 0.02em;
 	}
 }
