@@ -56,7 +56,8 @@ gulp.task('sass:compile', function () {
 
 gulp.task('js:compile', function() {
 	return gulp.src([
-			'app/js/main.js'
+			'app/js/main.js',
+			'app/js/map.js'
 		])
 		.pipe(sourcemaps.init())
 		.pipe(concat('main.min.js'))
