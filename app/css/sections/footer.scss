@@ -1,0 +1,64 @@
+.footer {
+	background: $main-black;
+
+	&__container {
+		display: flex;
+		flex-direction: row;
+		width: 1200px;
+		margin: 0 auto;
+
+	}
+
+	&__logo {
+		padding: 40px 0;
+	}
+
+	&__img {
+		background: $main-white;
+		padding: 16px 14px;
+		border-radius: 3px;
+	}
+	
+	.footer__nav {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.nav {
+		background: $main-black;
+		padding: 38px 0 0;
+		margin: 0 63px;
+		width: 723px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		border: none;
+
+		&__item {
+			padding: 0;
+		}
+
+		&__link {
+			letter-spacing: 0.05em;
+		}
+	}
+
+	&__icons {
+		padding: 18px 0 0;
+		text-align: center;
+	}
+
+	&__social {
+		padding: 0 20px;
+	}
+
+	&__yakstar {
+		padding: 38px 0;
+	}
+
+	.logo {
+		background: #fff;
+		padding: 16px 8px;
+		border-radius: 3px;
+	}
+}

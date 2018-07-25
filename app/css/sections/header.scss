@@ -12,10 +12,13 @@
 	}
 
 	&__logo {
+		width: 22%;
+		text-align: right;
+
 		.logo {
 			display: inline-block;
 			vertical-align: top;
-			margin: 17px 26px 17px 142px;
+			margin: 17px 26px;
 			height: 36px;
 			width: 150px;
 		}
