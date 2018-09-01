@@ -5,11 +5,11 @@
 	}
 
 	&__button {
-		border: 2px solid #fff;
+		border: 1px solid #fff;
 		color: $main-white;
 		display: inline-block;
 		vertical-align: top;
-		padding: 8px 51px;
+		padding: 9px 49px;
 		border-radius: 3px;
 		cursor: pointer;
 		font-family: $ff-main-bold;
@@ -22,31 +22,34 @@
 		color: $main-white;
 	}
 
-	&__content-doctor {
+	&__content {
+		height: 248.767px;
+	}
+
+	&__content:nth-child(1) {
 		background: $main-blue url(../img/content-1_item-1.png) 96% bottom no-repeat;
 		color: #fff;
 		text-align: left;
-		padding: 36px 41px 40px;
+		padding: 38px 41px 41px;
 	}
 	
 	&__title {
 		h2 {
 			color: $main-white;
 			font-family: $ff-main-bold;
-			font-size: 24px;
+			font-size: 23px;
 			text-transform: uppercase;
 			font-weight: 600;
 			margin: 0;
-			line-height: 25px;
-			letter-spacing: 0.01em;
+			line-height: 1.05;
+			letter-spacing: 0.035em;
 		}
 
 		p {
 			font-size: 18px;
 			color: $main-black;
-			margin: 3px 0 0;
-			line-height: 23px;
-			letter-spacing: 0.001em;
+			margin-top: 6px;
+			line-height: 1.18;
 		}
 		
 		&-button {
@@ -55,12 +58,12 @@
 			color: $main-black;
 			display: inline-block;
 			vertical-align: top;
-			padding: 11px 42px;
+			padding: 10px 42px;
 			cursor: pointer;
 			font-family: $ff-main-bold;
 			letter-spacing: 0.003em;
 			font-size: 18px;
-			margin-top: 28px;
+			margin-top: 30px;
 		}
 
 		// img {
@@ -71,12 +74,13 @@
 		// }
 	}
 
-	&__content-1 {
+	&__content:nth-child(2) {
 		background: url(../img/content-1_item-2.png) no-repeat center center;
+		background-size: cover;
 		position: relative;
 	}
 
-	&__content-2 {
+	&__content:nth-child(3) {
 		background: $main-blue url(../img/content-1_item-3.png) no-repeat center bottom;
 		text-align: center;
 
@@ -90,16 +94,19 @@
 		p {
 			font-size: 14px;
 			margin: 0;
+			line-height: 1.5;
 		}
 	}
 
-	&__content-3 {
+	&__content:nth-child(4) {
 		background: url(../img/content-1_item-4.png) no-repeat center center;
+		background-size: cover;
 		position: relative;
 	}
 
-	&__content-4 {
+	&__content:nth-child(5) {
 		background: url(../img/content-1_item-5.png) no-repeat center center;
+		background-size: cover;
 		position: relative;
 	}
 
@@ -117,23 +124,25 @@
 	}
 	
 	&__title-allergy {
-		padding: 9px 13px;
+		padding: 10px 10px 9px 15px;
 	}
 
 	&__title-bottom {
+		border-radius: 0 3px 0 0;
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		margin: 0;
 		background: $main-blue;
 		text-transform: uppercase;
-		padding: 8px 15px;
+		padding: 8px 13px 8px 15px;
 		letter-spacing: 0.009em;
 		font-size: 18px;
 	}
 
-	&__content-family {
+	&__content:last-child {
 		background: url(../img/content-1_item-6.png) no-repeat center center;
+		background-size: cover;
 		position: relative;
 		text-align: center;
 

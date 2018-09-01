@@ -56,6 +56,7 @@ gulp.task('sass:compile', function () {
 
 gulp.task('js:compile', function() {
 	return gulp.src([
+			'app/js/burger.js',
 			'app/js/main.js',
 			'app/js/map.js'
 		])

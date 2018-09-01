@@ -1,8 +1,12 @@
 .nurse {
 
+	.container {
+		max-width: 1200px;
+	}
+
 	&__text {
-		background: #fff url(../img/bg-content-1.png) no-repeat 103% 95%;
-		padding: 99px 25px;
+		background: #fff url(../img/bg-content-1.png) no-repeat 98% 93%;
+		padding: 99px 55px;
 
 		h2 {
 			font-size: 19px;
@@ -12,10 +16,10 @@
 		}
 
 		.nurse__desc {
-			margin-top: 31px;
+			margin-top: 29px;
 			font-size: 17px;
 			letter-spacing: 0.033em;
-			line-height: 1.5em;
+			line-height: 1.53;
 		}
 
 		.author {
@@ -27,6 +31,10 @@
 
 		.profession {
 			font-size: 14px;
+		}
+
+		@media (max-width: 991px) {
+			background-image: none;
 		}
 	}
 }

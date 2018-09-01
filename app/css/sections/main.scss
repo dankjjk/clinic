@@ -8,6 +8,10 @@
 		padding: 0 120px;
 		color: $main-black;
 
+		@media (min-width: 1441px) {
+			padding-left: 15%;
+		}
+
 		h1 {
 			font-size: 2.3em;
 			font-family: $ff-main-bold;
