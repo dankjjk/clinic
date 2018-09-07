@@ -42,6 +42,10 @@
 	&__week {
 		font-size: 18px;
 		letter-spacing: 0.015em;
+
+		@media (max-width: 540px) {
+			font-size: 15px;
+		}
 	}
 
 	&__day {
@@ -73,6 +77,10 @@
 		@media (max-width: 767px) {
 			padding: 44px 0 50px;
 			margin: 0 50px;
+		}
+
+		@media (max-width: 480px) {
+			margin: 0
 		}
 	}
 
@@ -116,6 +124,10 @@
 		&:active {
 			border-bottom: 2px solid $main-blue;
 		}
+
+		@media (max-width: 480px) {
+			padding: 3px 0 10px;
+		}
 	}
 
 	&__button {
@@ -136,6 +148,10 @@
 		@media (max-width: 767px) {
 			width: auto;
 			padding: 10px 30px;
+		}
+
+		@media (max-width: 480px) {
+			padding: 10px 15px;
 		}
 	}
 

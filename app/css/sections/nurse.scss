@@ -13,6 +13,10 @@
 			font-family: $ff-main-bold;
 			text-transform: uppercase;
 			letter-spacing: 0.038em;
+
+			@media (max-width: 527px) {
+				font-size: 15px;
+			}
 		}
 
 		.nurse__desc {
@@ -20,6 +24,14 @@
 			font-size: 17px;
 			letter-spacing: 0.033em;
 			line-height: 1.53;
+
+			@media (max-width: 527px) {
+				font-size: 14px;
+			}
+
+			@media (max-width: 378px) {
+				font-size: 12px;
+			}
 		}
 
 		.author {
@@ -27,6 +39,10 @@
 			font-family: $ff-main-bold;
 			font-size: 18px;
 			letter-spacing: 0.01em;
+
+			@media (max-width: 527px) {
+				font-size: 15px;
+			}
 		}
 
 		.profession {
@@ -35,6 +51,14 @@
 
 		@media (max-width: 991px) {
 			background-image: none;
+		}
+
+		@media (max-width: 599px) {
+			padding: 60px 20px;
+		}
+
+		@media (max-width: 408px) {
+			padding: 60px 5px;
 		}
 	}
 }

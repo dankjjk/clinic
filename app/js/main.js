@@ -5,6 +5,6 @@ $(function() {
 		loop: true,
 		autoplay: false,
 		nav: true,
-		navText: ["<img src=\"img/shape.png\">", "<img class='arrow-right' src=\"img/shape.png\">"]
+		navText: ["<img class='arrow-left arrow' src=\"img/shape.png\">", "<img class='arrow-right arrow' src=\"img/shape.png\">"]
 	});
 });

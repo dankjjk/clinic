@@ -31,6 +31,10 @@
 		color: #fff;
 		text-align: left;
 		padding: 38px 41px 41px;
+
+		@media (max-width: 480px) {
+			background: $main-blue;
+		}
 	}
 	
 	&__title {
@@ -43,6 +47,10 @@
 			margin: 0;
 			line-height: 1.05;
 			letter-spacing: 0.035em;
+
+			@media (max-width: 576px) {
+				font-size: 18px;
+			}
 		}
 
 		p {
@@ -50,6 +58,10 @@
 			color: $main-black;
 			margin-top: 6px;
 			line-height: 1.18;
+
+			@media (max-width: 576px) {
+				font-size: 14px;
+			}
 		}
 		
 		&-button {
@@ -64,14 +76,12 @@
 			letter-spacing: 0.003em;
 			font-size: 18px;
 			margin-top: 30px;
-		}
 
-		// img {
-		// 	position: absolute;
-		// 	right: 13px;
-		// 	top: 0;
-		// 	bottom: 0;
-		// }
+			@media (max-width: 640px) {
+				padding: 5px 35px;
+				font-size: 18px;
+			}
+		}
 	}
 
 	&__content:nth-child(2) {
@@ -121,6 +131,10 @@
 		font-size: 1.13em;
 		line-height: 20px;
 		letter-spacing: 0.001em;
+
+		@media (max-width: 576px) {
+			font-size: 0.9em;
+		}
 	}
 	
 	&__title-allergy {
@@ -138,6 +152,10 @@
 		padding: 8px 13px 8px 15px;
 		letter-spacing: 0.009em;
 		font-size: 18px;
+
+		@media (max-width: 576px) {
+			font-size: 0.9em;
+		}
 	}
 
 	&__content:last-child {
