@@ -4,7 +4,7 @@
 	position: fixed;
 	width: 100%;
 
-	@media (max-width: 1147px) {
+	@media only screen and (max-width: 1147px) {
 		position: relative;
 	}
 	
@@ -13,34 +13,48 @@
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 
 	&__logo {
 		width: 22%;
 		display: inline-block;
 
-		@media (max-width: 1147px) {
+		@media only screen and (min-width: 1600px) {
+			text-align: center;
+			width: 12%;
+		}
+
+		@media only screen and (max-width: 1147px) {
 			width: initial;
-			// position: absolute;
 		}
 
 		.logo {
 			display: inline-block;
 			vertical-align: top;
-			margin: 17px 26px;
+			margin: 14.5px 26px;
 			height: 36px;
 			width: 147px;
 			float: right;
+
+			@media only screen and (min-width: 1600px) {
+				float: none;
+				margin: 14.5px 0;
+			}
 			
-			@media (max-width: 1147px) {
+			@media only screen and (max-width: 1147px) {
 				float: left;
 			}
 			
-			@media (max-width: 767px) {
+			@media only screen and (max-width: 767px) {
 				margin: 12px 26px;
 				height: 28px;
 				width: 116px;
 			}
 		}
+	}
+
+	&__logo-active {
+		display: none;
 	}
 }

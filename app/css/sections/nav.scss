@@ -1,3 +1,20 @@
+.header__block {
+	width: 78%;
+	
+	@media only screen and (min-width: 1600px) {
+		width: 88%;
+	}
+
+	@media only screen and (max-width: 1147px) {
+		width: initial;
+		display: inline-block;
+	}
+
+	&-active {
+		width: 100%;
+	}
+}
+
 .nav {
 	background: #81d4f4;
 	border-radius: 0 0 0 3px;
@@ -5,24 +22,19 @@
 	vertical-align: top;
 	padding: 7px 0;
 	margin: 0;
-	width: 78%;
+	width: 100%;
 	text-align: center;
 
-	@media (max-width: 1147px) {
-		background: transparent;
-		width: 100%;
-		position: absolute;
-		top: 0;
-		right: 0;
-		display: block;
-		z-index: 15;
-		height: auto;
+	@media only screen and (max-width: 1147px) {
 		padding: 0;
+		display: none;
+		width: initial;
+	}
 
-		&:not(.open) {
-			width: 100%;
-			display: none;
-		}
+	&__active {
+		display: inline-block;
+		width: 100%;
+		padding: 51px 0;
 	}
 
 	&__item {
@@ -36,29 +48,8 @@
 			padding: 17px 6px;
 		}
 
-		@media (max-width: 1147px) {
-			&:first-child {
-				padding-top: 80px;
-			}
-
+		@media only screen and (max-width: 1147px) {
 			display: block;
-			padding: 15px 0;
-
-			&:not(.open) {
-				animation-duration: .4s;
-				animation-fill-mode: both;
-				animation-name: slideOutRight;
-			}
-
-			&.open {
-				visibility: visible;
-
-				li {
-					animation-duration: .4s;
-					animation-fill-mode: both;
-					animation-name: slideInLeft;
-				}
-			}
 		}
 	}
 
@@ -72,15 +63,6 @@
 
 		&:hover {
 			color: #515151;
-		}
-
-		@media (max-width: 1147px) {
-			background: transparent;
-			z-index: 1000;
-
-			&:not(.open) {
-				visibility: visible;
-			}
 		}
 	}
 

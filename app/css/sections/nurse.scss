@@ -14,7 +14,7 @@
 			text-transform: uppercase;
 			letter-spacing: 0.038em;
 
-			@media (max-width: 527px) {
+			@media only screen and (max-width: 527px) {
 				font-size: 15px;
 			}
 		}
@@ -25,11 +25,11 @@
 			letter-spacing: 0.033em;
 			line-height: 1.53;
 
-			@media (max-width: 527px) {
+			@media only screen and (max-width: 527px) {
 				font-size: 14px;
 			}
 
-			@media (max-width: 378px) {
+			@media only screen and (max-width: 378px) {
 				font-size: 12px;
 			}
 		}
@@ -40,7 +40,7 @@
 			font-size: 18px;
 			letter-spacing: 0.01em;
 
-			@media (max-width: 527px) {
+			@media only screen and (max-width: 527px) {
 				font-size: 15px;
 			}
 		}
@@ -49,15 +49,15 @@
 			font-size: 14px;
 		}
 
-		@media (max-width: 991px) {
+		@media only screen and (max-width: 991px) {
 			background-image: none;
 		}
 
-		@media (max-width: 599px) {
+		@media only screen and (max-width: 599px) {
 			padding: 60px 20px;
 		}
 
-		@media (max-width: 408px) {
+		@media only screen and (max-width: 408px) {
 			padding: 60px 5px;
 		}
 	}

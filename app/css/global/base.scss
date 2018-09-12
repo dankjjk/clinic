@@ -3,11 +3,11 @@
 }
 
 .arrow {
-	@media (max-width: 767px) {
+	@media only screen and (max-width: 767px) {
 		height: 30px;
 	}
 	
-	@media (max-width: 540px) {
+	@media only screen and (max-width: 540px) {
 		height: 25px;
 	}
 }
